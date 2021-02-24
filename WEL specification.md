@@ -1,5 +1,5 @@
 # Waypoint Editor Language
-WEL main purpose is to restrain the randomness in the process of assigning properties to waypoints.
+<abbr title="Waypoint Editor Language">WEL</abbr> main purpose is to restrain the randomness in the process of assigning properties to waypoints.
 
 If *w* is the number of waypoints on the map, the WEL interpreter will generate an ordered sets of *w* elements for every property specified in the WEL description; the point being that each set will be generated according to constraints specified in the description.
 
