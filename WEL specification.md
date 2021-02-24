@@ -36,7 +36,7 @@ For example, `{1-10}` is equivalent to `{1,2,3,4,5,6,7,8,9,10}`, and `{0,45-47,2
 
 ### Multiplication
 Much like ranges, a syntax sugar exists to express a series of `n` times the same number `a`: `{a(*n)}`.
-But multiplication is much more powerful than that! Multiplying a set by a number `n` will produce a set of `n` elements picked from the beginning of the set. See *Expansion* above for more details.
+But multiplication is much more powerful than that! Multiplying a set by a number `n` will produce a set of `n` elements picked from the beginning of the set. See [*Expansion*](#expansion) above for more details.
 
 Examples: `{5-8}(*2)` is `{5-8,5-8}` and `{1-10, disabled(*4)}` is `{1-10,disabled,disabled,disabled,disabled}`.
 
