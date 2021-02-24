@@ -47,7 +47,7 @@ It is possible to add or subtract elements from sets.
 
 `[x_1, ..., x_n]-[x_k, ..., x_n]` is defined as `[x_1, ..., x_k]`.
 
-For example, if the variable `cp` contains all the checkpoint numbers, `cp-{39}` will contain every checkpoint number except 39 — if there is any checkpoint 39 in the first place. If the variable `weapon amount` contained every checkpoint amount of ammo, `weapon amount-{4(*10)}+{0(*10)}` would choose 10 checkpoint with 4 ammos and would return a set that describe them as having no ammo instead.
+For example, As the variable `cp` contains all the checkpoint numbers, `cp-{39}` would contain every checkpoint number except 39 — if there is any checkpoint 39 in the first place. As the variable `weapon amount` contains every checkpoint amount of ammo, `weapon amount-{4(*10)}+{0(*10)}` would choose 10 checkpoint with 4 ammos and would return a set that describe them as having no ammo instead.
 
 ### k but what now
 — to be continued.
